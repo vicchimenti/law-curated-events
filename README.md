@@ -1,1 +1,1 @@
-# law-curated-events
+# Law Curated Events
