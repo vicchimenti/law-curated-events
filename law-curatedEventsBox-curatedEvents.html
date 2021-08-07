@@ -1,0 +1,11 @@
+<li>
+    <h5><a class="<t4 type='content' name='Link to' output='normal' display_field='value' />" href="<t4 type='content' name='Link to Calendar' output='normal' modifiers='striptags,htmlentities' />" target="<t4 type='content' name='Link to' output='normal' display_field='value' />">
+        <t4 type="content" name="Event Title" output="normal" modifiers="striptags,htmlentities" /></a></h5>
+    <p>
+      <t4 type="content" name="Event Date and time" output="normal" date_format="EEEE, MMMM d" />
+      <t4 type="content" name="All Day Event" output="selective-output" format="<span style=&quot;display:none&quot;>" />  
+      <t4 type="content" name="Event Date and time" output="normal" date_format=" 'at' h:mm a" />
+      <t4 type="content" name="All Day Event" output="selective-output" process-format="true" format="</span>" />
+      <t4 type="content" name="Multi-day Event" output="selective-output" process-format="true" format=" - <t4 type=&quot;content&quot; name=&quot;Event End Date and time&quot; output=&quot;normal&quot; date_format=&quot;EEEE, MMMM d&quot; />" />
+    </p>
+  </li>
