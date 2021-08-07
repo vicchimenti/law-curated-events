@@ -70,7 +70,7 @@ importClass(com.terminalfour.sitemanager.cache.Cache);
 
 try {
 	/** Global variables **/
-	var CID = 237; // The ID of the "Curated Event" content type
+	var CID = 5568; // The ID of the "Curated Event" content type for law is 5568 and edu is 237
 	var SSID = null;
 	if (content.hasElement('Event Section')) {
 		var match = String(content.get('Event Section')).match(/sslink_id="(\d+)"/);
