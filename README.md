@@ -3,4 +3,4 @@
 ## TODO
 
 - [] Update event item with bs5 image overlay
-- [] defin mobile layout
+- [x] define mobile layout
