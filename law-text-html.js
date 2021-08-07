@@ -176,7 +176,7 @@ try {
 	if (events)
 	{
 		/** Scope variables **/
-		var FORMATTER = 'v9/curatedEventsBox/eventsFeatured'; // Name of Curated Event's content layout
+		var FORMATTER = 'law/curatedEventsBox/eventsFeatured'; // Name of Curated Event's content layout
 		var EVENT_LIMIT = 3; // Limits number of events displayed
 		var templateManager = TemplateManager.getManager();
 		var format = templateManager.getFormat(dbStatement, CID, FORMATTER);
