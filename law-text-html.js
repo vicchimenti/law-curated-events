@@ -122,7 +122,7 @@ try {
     }
       
     // Open the Curated Events Box
-  document.write('<section style="background-image:linear-gradient(' + bgRGBA + ',' + bgRGBA + '),url(' + bgImage + ');" class="featuredCuratedEventsWrapper contentItem curatedEventsBox' + content.get('Background Color').publish() + ' noGap" data-position-default="Main" data-position-selected="Main" id="id' + content.getID() + '" aria-labelledby="labelForFeaturedEvents"><div class="curatedEventsTitle"><h2 id="labelForFeaturedEvents"><span>' + content.get('Box Title') + '</span></h2></div><div class="featuredCuratedEvents standardContent"><ul class="curatedEventsList">');
+  document.write('<div style="background-image:linear-gradient(' + bgRGBA + ',' + bgRGBA + '),url(' + bgImage + ');" class="featuredCuratedEventsWrapper contentItem curatedEventsBox' + content.get('Background Color').publish() + ' noGap" data-position-default="Main" data-position-selected="Main" id="id' + content.getID() + '" aria-labelledby="labelForFeaturedEvents"><div class="curatedEventsTitle"><h2 id="labelForFeaturedEvents"><span>' + content.get('Box Title') + '</span></h2></div><div class="featuredCuratedEvents standardContent"><ul class="curatedEventsList">');
 
 	// Get event section
 	var oSection = null;
@@ -194,7 +194,7 @@ try {
     }
 
 	// Close the Curated Events Box
-	document.write('<div class="clearfix"></div></ul></div><div class="clearfix"></div></section>');
+	document.write('<div class="clearfix"></div></ul></div><div class="clearfix"></div></div>');
 }
 catch (err) {
 	document.write('<!--' + err + '-->');
